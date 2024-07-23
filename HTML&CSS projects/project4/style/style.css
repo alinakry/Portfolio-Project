@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+}
+
+.header {
+    height: 65vh;
+    background-image: url(../images/Cosmoback.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.form {
+    height: 45vh;
+}
+
+.header h1 {
+    color: #D3E10E;
+    font: normal normal bold 86px/113px Assistant;
+    font-size: 4em;
+    margin-top: 3em;
+}
+
+.header p {
+    color: #f9f9f9;
+    font: normal normal normal 20px/26px Assistant;
+    font-size: 0.9em;
+}
+
+.form {
+    display: flex;
+    gap: 2em;
+    margin-top: 5em;
+    justify-content: center;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control input {
+    background-color: #f6f6f6;
+    border: 0;
+    border-bottom: 5px solid #D3E10E;
+    width: 22vw;
+    height: 5vh;
+}
+
+input[type="submit"] {
+    background-color: #D3E10E;
+    color: #011560;
+    font: normal normal bold 22px/30px Assistant;
+    width: 10vw;
+    margin-top: 21px;
+    font-size: 1.2em;
+}
+
+label {
+    font: normal normal bold 16px/21px Assistant;
+    color: #011560;
+}
+
+@media(max-width:800px) {
+
+    .header {
+        background-image: url(../images/SmallCosmoback.png);
+        height: 40vh;
+    }
+
+    .header h1 {
+        margin-top: 1em;
+        font-size: 1.8em;
+        height: 12vh;
+    }
+
+    .header p {
+        padding: 10px;
+    }
+
+    .form {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        margin-top: 2em;
+    }
+
+    .form-control input {
+        width: 80vw;
+        background-color: #E5EEFF;
+    }
+
+    input[type="submit"] {
+        background-color: #D3E10E;
+    }
+}

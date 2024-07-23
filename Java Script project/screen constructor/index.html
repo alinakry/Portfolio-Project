@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Constractor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="./script.js" async defer></script>
+</head>
+
+<body>
+    <div id="main-container">
+        <div id="side-block">
+
+            <div id="side-title">
+                <h1>Site Constractor</h1>
+                <p>Create your own html/css element in less than one minute</p>
+            </div>
+
+            <form id="form">
+                <div class="form-control">
+                    <label for="elm-width">Width</label>
+                    <input class="input" type="number" id="elm-width" required>
+                    <select class="select" id="select-width" required>
+                        <option id="op1">%</option>
+                        <option id="op2">px</option>
+                        <option id="op3">em</option>
+                    </select>
+                </div>
+
+                <div class="form-control">
+                    <label for="elm-height">Height</label>
+                    <input class="input" type="number" id="elm-height" required>
+                    <select class="select" id="select-height" required>
+                        <option id="op1">%</option>
+                        <option id="op2">px</option>
+                        <option id="op3">em</option>
+                    </select>
+                </div>
+
+                <div class="form-control">
+                    <label for="textarea">Content</label>
+                    <textarea id="textarea"></textarea>
+                </div>
+
+                <div class="form-control">
+                    <label for="el-color">Element Color</label>
+                    <input class="input" type="color" id="el-color" required>
+                </div>
+
+                <div class="form-control">
+                    <label for="font-size">Font Size</label>
+                    <input class="input" type="number" id="font-size">
+                    <select class="select" id="select-font">
+                        <option id="op1">pt</option>
+                        <option id="op2">px</option>
+                        <option id="op3">em</option>
+                    </select>
+                </div>
+
+
+                <input type="submit" id="submit" value="Create element">
+                <button id="clr-btn">Delete Everything</button>
+            </form>
+
+
+
+        </div>
+
+
+        <div id="content-container">
+
+        </div>
+    </div>
+</body>
+
+</html>

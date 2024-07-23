@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('../images/backImage.png');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 50vh;
+    object-fit: contain;
+    background-size: cover;
+}
+
+.container {
+    background-color: #1A1A1AD4;
+    width: 440px;
+    height: 510px;
+    position: absolute;
+    left: 55%;
+    top: 55%;
+    transform: translate(-10%, -60%);
+    direction: rtl;
+    padding: 2em;
+}
+
+.title {
+    font: normal normal 900 36px/53px Heebo;
+    color: #fff;
+    font-size: 1em;
+    margin: 1em auto;
+    margin-right: 1em;
+}
+
+
+.title p {
+    font: normal normal normal 20px/29px Heebo;
+    font-size: 1.1em;
+    color: #f9f9f9;
+    text-align: right;
+    margin: 1em auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form label {
+    font: normal normal bold 16px/24px Heebo;
+    color: #fff;
+    font-size: 0.8em;
+
+}
+
+
+.input input {
+    background-color: #fff;
+    border: 1px solid #D31C75;
+    height: 36px;
+    width: 95%;
+}
+
+
+input[type="submit"] {
+    background-color: #D31C75;
+    color: #fff;
+    font: normal normal bold 22px/30px Heebo;
+    width: 40%;
+    font-size: 1.1em;
+    border: 1px solid #D31C75;
+}
+
+@media(max-width:720px) {
+    header {
+        background-image: url(../images/backsmall.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        width: 100vw;
+        height: 28vh;
+    }
+
+    .container {
+        transform: translate(-55%, -65%);
+        box-sizing: content-box;
+        width: 65%;
+        height: 55%;
+    }
+
+    .title {
+        padding: 1em;
+        margin: 0 auto;
+    }
+
+    .title h1 {
+        font-size: 1.5em;
+        line-height: 1.3;
+    }
+
+    .title p {
+        font-size: 0.9em;
+        text-align: center;
+        font: normal normal normal 15px/22px Heebo;
+    }
+
+    .title h1,
+    p {
+        text-align: center;
+    }
+
+    .form {
+        margin: 0 auto;
+    }
+
+    .form label {
+        font-size: 0.8em;
+    }
+
+    input[type="submit"] {
+        width: 20vw;
+        font-size: 0.8em;
+    }
+
+    .input input {
+        height: 30px;
+        width: 60vw;
+    }
+}

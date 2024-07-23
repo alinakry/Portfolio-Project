@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ececec;
+}
+
+#container {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+#field td {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#start-button {
+    background-color: rgb(24, 129, 24);
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #4F5151;
+    border-radius: 5%;
+    width: 200px;
+    height: 50px;
+}

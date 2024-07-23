@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User manager</title>
+    <script src="./script.js" async defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body dir="rtl">
+    <div class="main-container">
+
+
+        <div class="register-container">
+            <div class="form-title">
+                <h2>הרשמה</h2>
+                <p>להרשמה למערכת יש למלא אתס הטופ</p>
+            </div>
+            <form class="register">
+                <div class="form-control">
+                    <label for="fname">שם פרטי</label>
+                    <input type="text" id="fname" required>
+                </div>
+
+                <div class="form-control">
+                    <label for="lname">שם משפחה</label>
+                    <input type="text" id="lname" required>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">דוא"ל</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="form-control">
+                    <label for="password">סיסמא</label>
+                    <input type="password" id="password" required>
+                </div>
+
+                <div class="form-control">
+                    <input type="submit" id="btn" required value="הרשמה">
+                </div>
+            </form>
+        </div>
+
+
+
+
+        <div class="sighIn-container">
+            <div class="form-title">
+                <h2>התחברות</h2>
+                <p>להתחברות למערכת יש למלא אתס הטופ</p>
+            </div>
+            <form class="sigh-in">
+
+                <div class="form-control">
+                    <label for="email">דוא"ל (שם משתמש)</label>
+                    <input type="email" id="signIn-email" required>
+                </div>
+
+                <div class="form-control">
+                    <label for="password">סיסמא</label>
+                    <input type="password" id="sighIn-password" required>
+                </div>
+
+                <div class="form-control">
+                    <input type="submit" id="sighIn-btn" required value='התחברות'>
+                </div>
+
+            </form>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="table-container">
+                <table id="table">
+                    <div class="table-title">
+                        <h2>רשימת משתמשים</h2>
+                        <p>להרשמה למערכת יש למלא אתס הטופ</p>
+                    </div>
+
+                    <tr class="main-row">
+                        <th>שם פרטי</th>
+                        <th>שם משפחה</th>
+                        <th>דוא"ל</th>
+                        <th>סיסמא</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+
+
+                </table>
+                <section id="section"></section>
+            </div>
+
+
+        </div>
+</body>
+
+</html>

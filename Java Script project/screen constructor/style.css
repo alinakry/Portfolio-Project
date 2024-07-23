@@ -1,0 +1,142 @@
+body {
+    font: merriweather;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ebdeed;
+}
+
+#side-block {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: merriweather;
+    background-image: url(./img/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#content-container {
+    width: 75%;
+    height: 100%;
+}
+
+#select-font,
+#select-height,
+#select-width {
+    width: 60px;
+}
+
+
+
+textarea {
+    resize: none;
+    width: 70%;
+    height: 10vh;
+    border: 2px solid black;
+}
+
+.input {
+    width: 70%;
+    height: 3vh;
+    border: 2px solid black;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.select {
+    width: 10%;
+}
+
+#side-title {
+    margin: 40px;
+    text-align: center;
+}
+
+#side-title>h1 {
+    font-size: 1.8em;
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+#side-title>p {
+    font-size: 0.8em;
+    margin-top: 5px;
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+input[type=submit] {
+    width: 70%;
+    background-color: #1097db;
+    border: 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#clr-btn {
+    width: 70%;
+    background-color: #e93232;
+    border: 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 850px) {
+    #side-block {
+        width: 20%;
+    }
+
+    #side-title>h1 {
+        font-size: 1em;
+        margin: 0;
+    }
+
+    #side-title {
+        margin: 20px;
+    }
+
+    .input {
+        width: 50%;
+        height: 2vh;
+    }
+
+    form {
+        margin: 15px;
+    }
+}

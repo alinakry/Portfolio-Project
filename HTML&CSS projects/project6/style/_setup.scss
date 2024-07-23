@@ -1,0 +1,14 @@
+$main-color: #FDBD03;
+
+$labelFont: normal normal normal 20px/29px Heebo;
+
+
+@mixin input {
+    background-color: #E5EEFF;
+    border: 0;
+    border-bottom: 5px solid $main-color;
+    width: 20vw;
+    height: 2rem;
+    margin: 0 0.5rem;
+    outline: none;
+}
