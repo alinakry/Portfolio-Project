@@ -188,7 +188,7 @@ input[type="checkbox"] {
 .js1 {
     width: 100%;
     height: 40%;
-    background-image: url('/PORTFOLIO/images/page-js1.png');
+    background-image: url('../../PORTFOLIO/images/page-js1.png');
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 20px grey;
@@ -206,7 +206,7 @@ input[type="checkbox"] {
 .js2 {
     width: 100%;
     height: 40%;
-    background-image: url('/PORTFOLIO/images/page-js2.png');
+    background-image: url('../../PORTFOLIO/images/page-js2.png');
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 20px grey;
@@ -224,7 +224,7 @@ input[type="checkbox"] {
 .js3 {
     width: 100%;
     height: 40%;
-    background-image: url('/PORTFOLIO/images/page-js3.png');
+    background-image: url('../../PORTFOLIO/images/page-js3.png');
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 20px grey;
@@ -242,7 +242,7 @@ input[type="checkbox"] {
 .js4 {
     width: 100%;
     height: 40%;
-    background-image: url('/PORTFOLIO/images/page-js4.png');
+    background-image: url('../../PORTFOLIO/images/page-js4.png');
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 20px grey;
@@ -260,7 +260,7 @@ input[type="checkbox"] {
 .js5 {
     width: 100%;
     height: 40%;
-    background-image: url('/PORTFOLIO/images/page-js5.png');
+    background-image: url('../../PORTFOLIO/images/page-js5.png');
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 20px grey;
@@ -278,7 +278,7 @@ input[type="checkbox"] {
 .js6 {
     width: 100%;
     height: 40%;
-    background-image: url('/PORTFOLIO/images/page-js6.png');
+    background-image: url('../../PORTFOLIO/images/page-js6.png');
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 20px grey;
